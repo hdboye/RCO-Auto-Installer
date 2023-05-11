@@ -14,4 +14,5 @@ I got bored and some of my friends don't trust the RCOInstaller.exe even though 
 # FAQ
 
 ## How do I use this?
-[Method 1] The first one requires you to install python which ca
+### Method 1
+The first one requires you to install python which ca
