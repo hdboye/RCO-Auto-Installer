@@ -6,7 +6,7 @@
 ----------------------------------------------------
 
 # About
-A python script that can be compiled on the users end which automatically update your RCO when run and also installs RCO if you don't have it.
+A python script that can be compiled into an exe on the users end which automatically update your RCO when run and also installs RCO if you don't have it.
 
 # FAQ
 
