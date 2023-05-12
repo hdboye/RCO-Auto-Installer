@@ -5,7 +5,7 @@
 ### https://github.com/L8X/Roblox-Client-Optimizer
 ----------------------------------------------------
 
-# Alt-About
+# About\
 A python script that can be compiled on the users end which automatically update your RCO when run and also installs RCO if you don't have it.
 
 # FAQ
