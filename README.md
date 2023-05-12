@@ -14,5 +14,9 @@ I got bored and some of my friends don't trust the RCOInstaller.exe even though 
 # FAQ
 
 ## How do I use this?
+
+### Why Does This Exist?
+I got bored and some of my friends don't trust the RCOInstaller.exe even though its open source.
+
 ### Method 1
 The first one requires you to install python which ca
