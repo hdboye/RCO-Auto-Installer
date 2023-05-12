@@ -18,4 +18,4 @@ First you need python which you can get [here](https://www.python.org/downloads/
 
 <br>
 
-Now that you have installed python, go ahead and download this repository. Once downloaded, unzip the zip file and open the folder containing RCO.py. Now click on the directory (something like: C:\Users\xxxxx\Downloads\Roblox-Client-Optimizer-Auto-Update-Installer-Python-main\Roblox-Client-Optimizer-Auto-Update-Installer-Python-main) and replace it with the text cmd and press enter. A command promt window should now pop up. Type python RCO.py and press enter. RCO has now been updated/installed
+Now that you have installed python, go ahead and download this repository. Once downloaded, unzip the zip file and open the folder containing RCO.py. Because this python script uses the request module you have install it. You can do this buy running Dependencies.bat. Now to update/install RCO run Update & Installer.bat
