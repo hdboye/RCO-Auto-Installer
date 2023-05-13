@@ -21,4 +21,4 @@ First you need python which you can get [here](https://www.python.org/downloads/
 Now that you have installed python, go ahead and download this repository. Once downloaded, unzip the zip file and open the folder containing RCO.py. Because this python script uses the request module you have install it. You can do this buy running Dependencies.bat. Now to update/install RCO run Update & Installer.bat
 
 <br>
-Now everytime you run this RCO will be updated to the latest version. 
+Now everytime you run Update & Installer.bat RCO will be updated to the latest version. You can also run the python script in Visual Studio COde
