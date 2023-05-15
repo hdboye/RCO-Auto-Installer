@@ -1,4 +1,4 @@
-# Roblox-Client-Optimizer-Auto-Update-Installer
+# Roblox Client Optimizer Auto Installer
 ----------------------------------------------------
 ## ⚠️I DID NOT MAKE RCO⚠️
 ### here is the official github repo for RCO:
