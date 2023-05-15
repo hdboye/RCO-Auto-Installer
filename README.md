@@ -1,8 +1,6 @@
-# Roblox Client Optimizer Auto Installer
+# RCO Better Installer
 ----------------------------------------------------
 ## ⚠️I DID NOT MAKE RCO⚠️
-### here is the official github repo for RCO:
-### https://github.com/L8X/Roblox-Client-Optimizer
 ----------------------------------------------------
 
 # About
