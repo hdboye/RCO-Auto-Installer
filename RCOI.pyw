@@ -31,9 +31,9 @@ with open(RobloxClientSettingsDir, "w") as f:
 # Informs user that RCO has been updated/installed and the directory
 print("New data has been written to", RobloxClientSettingsDir)
 
+# Auto-startup stuff (im not good at comments)
 def show_popup(message, title):
     ctypes.windll.user32.MessageBoxW(0, message, title, 0)
-# Auto-startup stuff (im not good at comments)
 def create_key(name: str="default", path: str="")->bool:
     reg_key = winreg.CreateKeyEx(winreg.HKEY_CURRENT_USER, 'Software\Microsoft\Windows\CurrentVersion\Run', 0, winreg.KEY_WRITE) 
     if not reg_key:
@@ -50,6 +50,6 @@ try:
     path = winshell.startup()
     shutil.copy2('./RCOI.exe',path)
     create_key('RCOInstaller', os.path.join(path,'RCOI.exe'))
-    show_popup('RCO is successfully installed! Enjoy!', 'Success!')
+    show_popup('RCO is now up-to-date! Enjoy!', 'Success!')
 except OSError as err:
     show_popup('An error has occured. Please report this to the github. ' + err, 'whoops')
