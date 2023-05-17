@@ -15,6 +15,34 @@ Yet another RCO installer. This one is a fork of ShashTheEpic's RCO-Auto-Install
 * Super simple. Run the application once and it's all installed.
 * doodoo code written by yours truly
 
+# How to compile
+
+If you have tried running RCOInstaller's python file without compiling, you might've seen a notice (if you are on 1.2 or later) about how you need to compile the program for it to work properly. Here's how to do that.
+
+Firstly, install [git](https://git-scm.com/). Once that's installed, clone the repository using the following command in your terminal.
+
+```
+git clone https://github.com/hdboye/RCOInstaller.git
+```
+
+Make sure to `cd` to the place you'd like to clone the folder to. You can also [click here](https://github.com/hdboye/RCOInstaller/archive/refs/heads/main.zip) to download and unzip the code manually. Once that's done, run the command `cd RCOInstaller` (or `cd RCOInstaller-main` if you downloaded the code from the site) to access the files in the folder.
+
+Now, install [Python](https://www.python.org/downloads/) (any version should work, but RCOInstaller was made and tested on 3.11.3). Once that's installed, go back to the terminal and run this command to install the dependencies this project uses
+
+```
+pip install winshell pyinstaller
+```
+
+Once that's finished, run this command.
+
+```
+pyinstaller RCOI.pyw --onefile --icon=rbx.ico
+```
+
+You can remove the `--onefile` parameter if you don't want it to compile to a single exe and the whole `--icon=rbx.ico` parameter if you want the exe to have a standard PyInstaller icon.
+
+Once that's finished compiling (it might take a small while), you'll have a `dist` folder located in the `RCOInstaller` folder where your compiled EXE will be located.
+
 # FAQ
 
 ### Why does this exist?

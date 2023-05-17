@@ -33,17 +33,20 @@ print("New data has been written to", RobloxClientSettingsDir)
 # Auto-startup stuff (im not good at comments)
 def show_popup(message, title):
     ctypes.windll.user32.MessageBoxW(0, message, title, 0)
-def is_pyinstaller():
+def pyins():
     try:
         return getattr(sys, 'frozen', False)
     except AttributeError:
         return False
-try:
-    path = winshell.startup()
+if(not pyins()):
+    show_popup('RCO has been loaded, but you\'re not using a compiled build which means that RCOInstaller can\'t load a copy of itself into the start-up folder. Please either get a release build from the GitHub or compile it yourself using PyInstaller (or whatever python to exe program you prefer). More info is available on the GitHub page.', 'IMPORTANT NOTE')
+else:
     try:
-        shutil.copy2('./RCOI.exe',path)
-    except:
-        print('ok nvm')
-    show_popup('RCO is now up-to-date! Enjoy!', 'Success!')
-except OSError as err:
-    show_popup('An error has occured. Please report this to the github. ' + err, 'whoops')
+        path = winshell.startup()
+        try:
+            shutil.copy2(os.path.realpath(sys.executable),path)
+        except:
+            print('ok nvm')
+        show_popup('RCO is now up-to-date! Enjoy!', 'Success!')
+    except OSError as err:
+        show_popup('An error has occured. Please report this to the github. ' + err, 'whoops')
