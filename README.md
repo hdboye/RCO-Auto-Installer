@@ -27,7 +27,7 @@ git clone https://github.com/hdboye/RCOInstaller.git
 
 Make sure to `cd` to the place you'd like to clone the folder to. You can also [click here](https://github.com/hdboye/RCOInstaller/archive/refs/heads/main.zip) to download and unzip the code manually. Once that's done, run the command `cd RCOInstaller` (or `cd RCOInstaller-main` if you downloaded the code from the site) to access the files in the folder.
 
-Now, install [Python](https://www.python.org/downloads/) (any version should work, but RCOInstaller was made and tested on 3.11.3). Once that's installed, go back to the terminal and run this command to install the dependencies this project uses
+Now, install [Python](https://www.python.org/downloads/) (any version should work, but RCOInstaller was made and tested on 3.10.7). Once that's installed, go back to the terminal and run this command to install the dependencies this project uses
 
 ```
 pip install winshell pyinstaller
