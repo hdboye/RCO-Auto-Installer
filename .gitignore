@@ -1,3 +1,7 @@
 build
 dist
 RCOI.spec
+RCOI.build
+RCOI.dist
+RCOI.onefile-build
+RCOI.exe
