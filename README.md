@@ -1,4 +1,4 @@
-# ⚠️THIS REPO HAS BEEN ARCHIVED, NO UPDATES WILL BE MADE AND THE SOURCE WILL NOT BE UPDATED⚠️
+# ⚠️No more updates will be provided to this installer. The JSON file should still stay up-to-date though.⚠️
 
 # RCOInstaller
 
